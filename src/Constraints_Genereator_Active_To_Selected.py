@@ -6,8 +6,6 @@ import bpy
 #     referenced in the settings of the created 
 #      constraint.
 
-# context
-original_mode = bpy.context.area.type
 # active_bone_name gets the name of the active bone
 active_bone_name = bpy.context.active_bone.name
 # active_bone_name gets the name of the active armature
